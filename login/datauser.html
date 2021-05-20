@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
+
+    <style>
+        .profile-container {
+            margin-top: 15%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .btn {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-container">
+        <div class="user-card">
+            <h2>Full Name :</h2>
+            <h3 class="FullName"></h3>
+            <h2>Username :</h2>
+            <h3 class="Username"></h3>
+            <h2>Email :</h2>
+            <h3 class="Email"></h3>
+        </div>
+        <div class="btn">
+            <button class="w3-button w3-round w3-green" id="user-document">
+                Back
+            </button>
+            <button class="w3-button w3-round w3-green" id="update-data">
+                Update
+            </button>
+        </div>
+    </div>
+
+    <script src="./Assets/JS/profile.js"></script>
+</body>
+
+</html>

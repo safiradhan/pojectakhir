@@ -1,0 +1,51 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(158, 228, 250);
+}
+.content{
+    margin-left: 600px;
+    margin-top: 30px;
+}
+.heading{
+    margin-left: 680px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main{
+    margin-left: 400px;
+}
+.form input{
+    padding: 20px;
+    width: 500px;
+    margin-top: 10px;
+    border:rgb(89, 89, 155);
+    border-bottom: 1px solid rgb(29 161 242);
+    outline-style: none;
+    padding-bottom: 30px;
+}
+.btn button{
+    margin-left: 5px;
+    margin-top: 15px;
+    padding: 15px;
+    width: 530px;
+    border-radius: 30px;
+    border: none;
+    outline-style: none;
+    color: azure;
+    background-color: rgb(29 161 242);
+    opacity: .5;
+    font-size: 17;
+}
+.forgot{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+p a{
+    color:rgb(29 161 242)
+}
+.signup{
+    margin-left: 280px;
+    margin-top: -17px;
+}

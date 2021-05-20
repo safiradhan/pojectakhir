@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {background-color: rgb(234, 243, 240);}
+        form {
+            display: flex;
+            align-items: left;
+            justify-content: left;
+        }
+        table, td, th {
+            border: 1px solid black;
+        }
+  
+        #table1 {
+            border-collapse: separate;
+            display: flex;
+            align-items: left;
+            justify-content: left;
+        }
+        fieldset, a {
+            border-radius: 20px;
+        }
+        input {
+            border-radius: 4px;
+        }
+        .button {
+            background-color: #493bc0;
+            border: none;
+            color: white;
+            padding: 5px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 title = "Once you're in, you'll never go back"> DAY-UM </h1>
+    <table id="userTable">
+        <thead>
+            <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Username</th>
+            <th scope="col">Password</th>
+            <th scope="col">Email</th>
+            <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <!-- barang dari user.js masuk ke tbody dibawah ini -->
+        <tbody></tbody>
+    </table>
+    <br>
+    create user
+    <!-- <form id="userForm"> --> 
+        <!-- <fieldset> -->
+            <!-- <legend>Create New User</legend> 
+            <br>
+            <div>
+                <label>Name</label>
+                <input type="text" name="name" title="Fill in your full name" style="float: right;"/>
+            </div>
+            <br>
+            <div>
+                <label>Username</label>
+                <input type="text" name="username" title="Fill in your username" style="float: right;"/>
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" title="Fill in your email address" style="float: right;"/>
+            </div>
+            <br>
+            <div> -->
+                <!-- <label>Password</label>
+                <input type="text" name="password" title="Fill in your password" style="float: right;"/>
+            </div>
+            <br>
+            <div> -->
+                <!-- <input type="all users" value="users" title="get all users" style="float: right; cursor: pointer;">
+            </div> -->
+        </fieldset>
+    </form>
+    <br> 
+    <a href="index.html" class="button">Back  </a>
+    
+    
+    <script src="util.js"></script>
+    <script src="user.js"></script>  
+</body>
+</html>
+<!-- 
